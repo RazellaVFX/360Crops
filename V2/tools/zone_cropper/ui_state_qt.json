@@ -1,0 +1,49 @@
+{
+  "input_dir": "Q:/Dropbox/SYNC/SPAWN/3D/Scan/360_6756_SQ",
+  "output_dir": "Q:/Dropbox/SYNC/MyScripts/360_crops/test",
+  "crop_w": 2500,
+  "crop_h": 2500,
+  "fov_x": 90.0,
+  "mode": "count_mode",
+  "target_zones": 18,
+  "overlap": 0.0,
+  "yaw_step": 60.0,
+  "pitch_step": 60.0,
+  "max_pitch_step": 90.0,
+  "max_pitch_count": 90.0,
+  "chunk_size": 8,
+  "image_ext": ".jpg",
+  "compression_strength": 0.0,
+  "encoder_backend": "gpu",
+  "use_imagecodecs": false,
+  "writer_threads": 128,
+  "gpu_zone_batch": 1,
+  "preview_index": 0,
+  "frame_range_start": 0,
+  "frame_range_end": 190,
+  "include_poles_step": true,
+  "allow_pole_center_step": true,
+  "include_poles_count": true,
+  "allow_pole_center_count": true,
+  "use_torch_gpu": true,
+  "show_borders": true,
+  "live_preview": true,
+  "interp_mode": "bilinear",
+  "splitter_sizes": {
+    "main": [
+      71,
+      71,
+      129,
+      706,
+      352
+    ],
+    "mode": [
+      1218,
+      1317
+    ],
+    "window_size": [
+      2560,
+      1369
+    ]
+  }
+}

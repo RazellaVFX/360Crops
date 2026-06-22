@@ -1,0 +1,21 @@
+# 360 Zone Cropper — Python dependencies
+# Tested with Python 3.12 on Windows.
+#
+# GPU build (NVIDIA, CUDA 12.8):
+#   pip install -r requirements.txt
+#
+# CPU-only torch (replace torch/torchvision lines before install):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt --no-deps
+#   pip install numpy Pillow imagecodecs PySide6 PySide6-Fluent-Widgets
+
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+numpy>=2.3.5,<3
+Pillow>=12.0.0,<13
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+imagecodecs>=2026.6.6
+PySide6>=6.11.1,<7
+PySide6-Fluent-Widgets>=1.11.2,<2
