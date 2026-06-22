@@ -1,3 +1,5 @@
+<img width="1442" height="1237" alt="360_UI_demo" src="https://github.com/user-attachments/assets/d2e42c8b-98f4-45ee-9160-415d45ec9b06" />
+
 # 360 Zone Cropper — source package
 
 Lightweight distribution: application code only. Python and libraries are **not** included.
